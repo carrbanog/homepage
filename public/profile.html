@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="homepage.css">
+  <script src="https://kit.fontawesome.com/e8415d2d87.js" crossorigin="anonymous"></script>
+  <style>
+    li, ul{
+      list-style: none;
+    }
+    .profileMain{
+      width: 340px;
+      padding: 30px;
+      border: 1px solid;
+      background-color: #fff;
+      margin: 50px auto;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    nav.menu{
+      width: 100%;
+    }
+    nav.menu a{
+      font-size: 20px;
+      color: #666;
+    }
+    nav.menu a:nth-child(1){
+      float: left;
+      padding: 10px;
+    }
+    nav.menu a:nth-child(2){
+      float: right;
+      padding: 10px;
+    }
+
+    article.profile{
+      width: 100%;
+      text-align: center;
+    }
+    article.profile img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 10px #666;
+    }
+    article.profile h1{
+      font-size: 22px;
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 5px;
+    }
+    article.profile h2{
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    article.profile .moreView{
+      display: block;
+      width: 180px;
+      height: 32px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 16px;
+      color: black;
+      background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+      /* https://webgradients.com/ 그라데이션 추천 사이트 */
+    }
+
+    ul.contact{
+      margin-bottom: 25px;
+    }
+    ul.contact li{
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    ul.contact li i{
+      width: 20%;
+      text-align: center;
+      font-size: 15px;
+      color: #555;
+    }
+
+    ul.contact li span{
+      text-align: center;
+      font-size: 15px;
+      color: #555;
+      font-weight: normal;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="study.html">Study</a>
+            <a href="todolist.html">TodoList</a>
+        </nav>
+    </div>
+  </header>
+  <div class="profileMain">
+    <nav class="menu">
+      <a href="#"><i class="fa-solid fa-bars"></i></a>
+      <a href="#"><i class="fa-solid fa-note-sticky"></i></a>
+    </nav>
+    <article class="profile">
+      <img src="img/photographer-407068_1280.jpg" alt="">
+      <h1>김민기</h1>
+      <h2>경일대학교 클라우드컴퓨팅</h2>
+      <a href="#" class="moreView">더보기</a>
+    </article>
+    <ul class="contact">
+      <li>
+        <i class="fa-brands fa-instagram"></i>
+        <span>Visit my instagram</span>
+      </li>
+      <li>
+        <i class="fa-regular fa-envelope"></i>
+        <span>abcd1234@gmail.com</span>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
